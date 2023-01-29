@@ -1,0 +1,265 @@
+
+header{
+  height: 250px;
+  width: 750px;
+  padding: 20px;
+  margin-top: 50px;
+
+}
+
+.fotocv{
+    width: 250px;
+    height: 150px ;
+    float: left;
+    display: flex;
+    margin-right: 70px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+img {
+    border-radius: 46px;
+    image-resolution: 30px;
+    height: 200px;
+    width: 260px;
+}
+.mi-nombre{
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 70px;
+    letter-spacing: 2px;
+    word-spacing:2px;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-align: right;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-left: 350px;
+}
+
+
+body {
+    background: #360033;  
+    background: -webkit-linear-gradient(to right, #0b8793, #360033);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0b8793, #360033); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.button {
+    background-color: #ecd3e7; 
+    border-radius: 8px;
+    color: rgb(12, 6, 11);
+    padding: 10px 28px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    position: absolute;
+    bottom: 70px;
+    height: 70px;
+    width: 250px;
+    right: 150px;
+
+}
+
+button:hover {
+    background-color: #ecb5d7; 
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.parrafo-experiencia {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing:2px;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-align: right;
+    padding-right: 100px;
+
+}
+
+.parrafo-experiencia h4 {
+    font-weight: bold;
+    font-size: 30px;
+    padding-right: 100;
+}
+
+.container{
+    width: 100%;
+    position: relative;
+    max-width: 1200px;
+    min-height: 1100px;
+    display: grid;
+    padding-top: 70px;
+    padding-right: 60px;
+    padding-left: 60px;
+    grid-template-columns: 1fr 2fr;
+
+}
+
+
+/* .container .lado-derecho {
+    position: relative;
+    background-color: #d493ffa9;
+    padding-left: 60px;
+    padding-right: 50px;
+    opacity: 80%;
+    border-radius: 8px;
+} */
+.container ul li{
+    position: relative;
+    list-style: none;
+}
+
+/* contenedor de info de contacto que va en la parte izquierda */
+
+.container .lado-izquierdo{
+    position: relative;
+  
+}
+
+.container ul li .icon{
+display: inline-block;
+width: 30px;
+font-size: 30px;
+color: #f536ac;
+padding-left: 50px;
+}
+
+.container .text{
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing:2px;
+    color: rgb(253, 253, 253);
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-align: right;
+    
+}
+
+/* contenedor que va en la parte derecha */
+.text-derecha h5{
+    font-weight: bold;
+    font-size: 30px;
+    padding-right: 100;
+}
+.text-derecha {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing:2px;
+    color: rgb(250, 246, 246);
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-align: right;
+    padding-right: 100px;
+}
+
+.barra-progreso{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px 20px;
+    padding: 20px 20px;
+    border-radius: 7px;
+    overflow: hidden;
+}
+       
+.barra-progreso span{
+    display: block;
+    width: 100%;
+    height: 20px;
+    background-color: #00AACC;
+    position: relative;
+    border-radius: 10px;
+}
+
+.barra-progreso span::before{
+    position: absolute;
+    content: "";         /* contente vacio (para que se dibuje) */
+    width: 80%;
+    height: 80%;
+    background-color: #dba5ff;
+    top: 40%;
+    left: 1px;
+    transform: translateY(-40%);
+    border-radius: 10px;
+    overflow: hidden;
+    width: var(--f);
+
+} 
+
+.barra-progreso p{
+    
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing:2px;
+    color: rgb(250, 246, 246);
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: none;
+    font-weight: bold;  
+}
+.barra-progreso h2{ 
+ 
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    word-spacing:2px;
+    color: rgb(250, 246, 246);
+    font-weight: normal;
+    font-weight: bold;  
+    padding-left: 110px;
+   }
+
+   .barra-progreso h4{ 
+ 
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    word-spacing:2px;
+    color: rgb(250, 246, 246);
+    font-weight: normal;
+    padding-left: 110px;
+   }
+
+
+.barra-progreso h3{ 
+ 
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    word-spacing:2px;
+    color: rgb(250, 246, 246);
+    font-weight: normal;
+    font-weight: bold;  
+    padding-left: 110px;
+   }
+h6{
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+    word-spacing:2px;
+    color: rgb(250, 246, 246);
+    font-weight: normal;
+    font-weight: bold;  
+    }
